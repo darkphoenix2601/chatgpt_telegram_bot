@@ -1,8 +1,8 @@
-telegram_token: ""
-openai_api_key: ""
+telegram_token: "2146061906:AAF4yIqShPVN93lzenkXEXMZ1YuZ_EmJlVo"
+openai_api_key: "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"
 use_chatgpt_api: true
 allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as positive integers and/or channel ids as negative integers
-new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
+new_dialog_timeout: 10  # new dialog starts after timeout (in seconds)
 return_n_generated_images: 1
 n_chat_modes_per_page: 5
 enable_message_streaming: true  # if set, messages will be shown to user word-by-word
